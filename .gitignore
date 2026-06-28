@@ -1,0 +1,5 @@
+venv/
+honeypot.db
+honeypot-logs.json
+__pycache__/
+*.pyc
