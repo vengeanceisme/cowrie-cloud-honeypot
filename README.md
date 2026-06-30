@@ -33,9 +33,9 @@ This project deploys [Cowrie](https://github.com/cowrie/cowrie), a medium-intera
 
 - Several source IPs sharing an identical SSH client fingerprint ("hassh") strongly suggest a single coordinated botnet operating across rotating IPs/cloud providers rather than independent actors.
 - Multiple attackers attempted to use the compromised session as a relay (`direct-tcpip` requests), a common technique for using a victim machine as a proxy/pivot point.
-- One connection attempt sent a malformed HTTP request instead of an SSH handshake — likely a bot mistakenly probing the wrong port.
+- One connection attempt sent a malformed HTTP request instead of an SSH handshake (likely a bot mistakenly probing the wrong port.)
 
-**Note:** Source IPs represent the network origin of each connection, not necessarily the attacker's true physical location — many correspond to cloud hosting providers or VPN infrastructure commonly used to obscure origin.
+**Note:** Source IPs represent the network origin of each connection, not necessarily the attacker's true physical location (many correspond to cloud hosting providers or VPN infrastructure commonly used to obscure origin.)
 
 ## Dashboard Screenshots
 
