@@ -9,18 +9,13 @@ This project deploys [Cowrie](https://github.com/cowrie/cowrie), a medium-intera
 ## Architecture
 
 - Internet attackers/bots
-
 - Oracle Cloud VM (Ubuntu 22.04)
-
   - Port 22 (iptables NAT redirect) -> Port 2222 (Cowrie)
   - Port 2200 (real SSH, admin access only)
-
 - Cowrie honeypot (fake SSH server, JSON logging)
-
 - Python pipeline (parse_logs.py)
   - Parses JSON logs into SQLite
   - Enriches attacker IPs with GeoIP lookup (ip-api.com)
-
 - Dashboard (build_dashboard.py)
   - Plotly-generated interactive HTML report
 
