@@ -71,6 +71,7 @@ This project deploys [Cowrie](https://github.com/cowrie/cowrie), a medium-intera
 
 - Setting up and securing cloud infrastructure (SSH key auth, firewall rules at both the cloud provider and OS level, iptables NAT/INPUT chain ordering)
 - How real-world automated attack traffic behaves: credential-stuffing patterns, botnet fingerprinting via SSH client signatures, pivot/relay attempts
+- How quickly and persistently bots discover and probe new servers on the internet 
 - Building a full data pipeline from raw logs to structured data to visualization
 - Debugging multi-layered network configurations (cloud firewall + OS firewall + iptables all needing separate rules for the same port)
 
