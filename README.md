@@ -25,7 +25,9 @@ This project deploys [Cowrie](https://github.com/cowrie/cowrie), a medium-intera
 - **25,411** total logged events
 - **47** unique attacker IPs
 - **20+** countries represented
-- Multiple credential-stuffing attempts, a pivot/relay attempt, and protocol-confusion probes captured
+- Multiple credential-stuffing attack attempts (bots cycling through common username/password combinations)
+- A pivot/relay attempt (attacker tried to use the honeypot as a proxy to reach other systems)
+- Protocol-confusion probes (a bot sent an HTTP request to an SSH port which was likely misconfigured)
 
 ## Key Findings
 
